@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Gallery image 3 placeholder">
+  <rect width="400" height="300" fill="#221f1c"/>
+  <circle cx="200" cy="120" r="42" fill="none" stroke="#f6f1e7" stroke-width="4"/>
+  <line x1="165" y1="190" x2="235" y2="190" stroke="#f6f1e7" stroke-width="4" stroke-linecap="round"/>
+  <text x="200" y="250" fill="#f6f1e7" font-family="sans-serif" font-size="18" text-anchor="middle" opacity="0.85">Gallery Image 3</text>
+</svg>

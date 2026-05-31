@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO BASICS — EDIT THESE FOR EACH CLIENT
+       ============================================================ -->
+  <title>Iron & Oak Barbershop | Fresh Cuts in Your City</title>
+  <meta name="description" content="Iron & Oak Barbershop offers premium haircuts, fades, beard trims, and grooming. Book your appointment online today." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       EDIT: Business name "Iron & Oak"
+       ============================================================ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="brand">
+        <img src="assets/logo-placeholder.svg" alt="Iron & Oak Barbershop logo" class="brand__logo" />
+        <span class="brand__name">IRON &amp; OAK</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#team">Barbers</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#booking" class="btn btn--small">Book Now</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+       EDIT: headline, sub-text, button links
+       ============================================================ -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Your Local Barber Since 2014</p>
+      <h1 class="hero__title">Fresh Cuts.<br>Easy Booking.<br><span>Local Barber You Can Trust.</span></h1>
+      <p class="hero__sub">Walk in looking good, walk out looking sharp. Premium cuts, fades, and beard work from barbers who actually listen.</p>
+      <div class="hero__cta">
+        <a href="#booking" class="btn btn--primary">Book an Appointment</a>
+        <!-- EDIT: replace with real phone number -->
+        <a href="tel:+15551234567" class="btn btn--ghost">Call (555) 123-4567</a>
+      </div>
+      <ul class="hero__trust">
+        <li>★★★★★ 4.9 / 5 rating</li>
+        <li>2,000+ happy clients</li>
+        <li>Open 6 days a week</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+       EDIT: each service title + description
+       ============================================================ -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="kicker">What We Do</p>
+      <h2 class="section__title">Services Built Around You</h2>
+      <p class="section__lead">From a classic trim to a full grooming package, every visit ends with a clean, confident look.</p>
+
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__icon">✂️</div>
+          <h3>Haircuts</h3>
+          <p>A precise, tailored cut for your face shape and style — scissor work or clippers, your call.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">💈</div>
+          <h3>Fades &amp; Tapers</h3>
+          <p>Skin fades, low/mid/high fades, and clean tapers blended to perfection.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🧔</div>
+          <h3>Beard Trims</h3>
+          <p>Shaping, lining, and hot-towel finishing to keep your beard sharp.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">📐</div>
+          <h3>Lineups</h3>
+          <p>Crisp edge-ups and lineups to keep things looking fresh between cuts.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🧒</div>
+          <h3>Kids Cuts</h3>
+          <p>Patient, friendly cuts for the little ones — no stress, just style.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">⭐</div>
+          <h3>Grooming Packages</h3>
+          <p>Cut + beard + hot towel + style. The full chair experience.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY US / BENEFITS SECTION
+       ============================================================ -->
+  <section class="section section--alt" id="why">
+    <div class="container">
+      <p class="kicker">Why Iron &amp; Oak</p>
+      <h2 class="section__title">More Than Just a Haircut</h2>
+      <div class="grid grid--4">
+        <div class="benefit">
+          <div class="benefit__num">01</div>
+          <h3>Skilled Barbers</h3>
+          <p>Years of experience and ongoing training so you always leave looking your best.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit__num">02</div>
+          <h3>Easy Booking</h3>
+          <p>Reserve your chair online in under a minute. No more waiting around.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit__num">03</div>
+          <h3>Clean &amp; Comfortable</h3>
+          <p>A relaxed, sanitized space where you can sit back and unwind.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit__num">04</div>
+          <h3>Fair Pricing</h3>
+          <p>Premium results without the premium markup. Honest prices, every time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+       EDIT: the story text
+       ============================================================ -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="about__img">
+        <img src="assets/hero-placeholder.svg" alt="Inside Iron & Oak Barbershop" />
+      </div>
+      <div class="about__text">
+        <p class="kicker">Our Story</p>
+        <h2 class="section__title">A Neighborhood Shop With Old-School Pride</h2>
+        <p>Iron &amp; Oak started with one chair and a simple idea: treat every client like a regular. Over a decade later, we're proud to be the shop locals trust for a sharp cut and good conversation.</p>
+        <p>We blend classic barbering traditions with modern styles, so whether you want a timeless trim or the latest fade, you're in the right chair.</p>
+        <a href="#booking" class="btn btn--primary">Book Your Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRICING SECTION
+       EDIT: prices and package names
+       ============================================================ -->
+  <section class="section section--alt" id="pricing">
+    <div class="container">
+      <p class="kicker">Simple Pricing</p>
+      <h2 class="section__title">Pricing &amp; Packages</h2>
+      <p class="section__lead">No surprises. Here's exactly what you'll pay.</p>
+
+      <div class="grid grid--3">
+        <div class="price">
+          <h3>The Classic</h3>
+          <p class="price__amount">$30</p>
+          <ul>
+            <li>Haircut</li>
+            <li>Quick wash</li>
+            <li>Style finish</li>
+          </ul>
+          <a href="#booking" class="btn btn--ghost">Book</a>
+        </div>
+        <div class="price price--featured">
+          <span class="price__badge">Most Popular</span>
+          <h3>The Full Service</h3>
+          <p class="price__amount">$50</p>
+          <ul>
+            <li>Haircut</li>
+            <li>Beard trim &amp; shape</li>
+            <li>Hot towel finish</li>
+          </ul>
+          <a href="#booking" class="btn btn--primary">Book</a>
+        </div>
+        <div class="price">
+          <h3>The Grooming</h3>
+          <p class="price__amount">$70</p>
+          <ul>
+            <li>Haircut + beard</li>
+            <li>Hot towel shave</li>
+            <li>Styling products</li>
+          </ul>
+          <a href="#booking" class="btn btn--ghost">Book</a>
+        </div>
+      </div>
+      <p class="price__note">Kids cuts $20 · Beard trim only $20 · Lineup $15</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+       EDIT: replace SVG placeholders with real photos later
+       ============================================================ -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <p class="kicker">Our Work</p>
+      <h2 class="section__title">Recent Cuts</h2>
+      <div class="gallery">
+        <img src="assets/gallery-1.svg" alt="Haircut example 1" />
+        <img src="assets/gallery-2.svg" alt="Haircut example 2" />
+        <img src="assets/gallery-3.svg" alt="Haircut example 3" />
+        <img src="assets/gallery-1.svg" alt="Haircut example 4" />
+        <img src="assets/gallery-2.svg" alt="Haircut example 5" />
+        <img src="assets/gallery-3.svg" alt="Haircut example 6" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TEAM / BARBERS SECTION
+       EDIT: names, specialties, photos
+       ============================================================ -->
+  <section class="section section--alt" id="team">
+    <div class="container">
+      <p class="kicker">Meet the Team</p>
+      <h2 class="section__title">Your Barbers</h2>
+      <div class="grid grid--3">
+        <article class="barber">
+          <img src="assets/logo-placeholder.svg" alt="Barber Marcus" class="barber__photo" />
+          <h3>Marcus</h3>
+          <p class="barber__role">Owner · Fades &amp; Tapers</p>
+          <p>15 years behind the chair. If you want a flawless fade, Marcus is your guy.</p>
+        </article>
+        <article class="barber">
+          <img src="assets/logo-placeholder.svg" alt="Barber Dre" class="barber__photo" />
+          <h3>Dre</h3>
+          <p class="barber__role">Senior Barber · Beard Work</p>
+          <p>Specializes in beard sculpting and hot-towel finishes that turn heads.</p>
+        </article>
+        <article class="barber">
+          <img src="assets/logo-placeholder.svg" alt="Barber Sam" class="barber__photo" />
+          <h3>Sam</h3>
+          <p class="barber__role">Barber · Classic Cuts</p>
+          <p>Timeless styles, sharp lineups, and a calm chair for the kids.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+       EDIT: replace with real Google reviews when available
+       ============================================================ -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <p class="kicker">Happy Clients</p>
+      <h2 class="section__title">What People Are Saying</h2>
+      <div class="grid grid--3">
+        <blockquote class="review">
+          <p class="review__stars">★★★★★</p>
+          <p>"Best fade I've had in years. Marcus took his time and nailed exactly what I asked for."</p>
+          <footer>— James T.</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__stars">★★★★★</p>
+          <p>"Booked online, walked in, out in 30 minutes looking sharp. This is my shop now."</p>
+          <footer>— Carlos M.</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p class="review__stars">★★★★★</p>
+          <p>"They're great with my son — patient and quick. We both get cuts here now."</p>
+          <footer>— Renee W.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BOOKING SECTION  ⚠️ PROTOTYPE FORM ⚠️
+       This form shows a confirmation message only.
+       It does NOT send data anywhere yet.
+       To make it real, connect Formspree/Calendly (see README).
+       ============================================================ -->
+  <section class="section section--alt" id="booking">
+    <div class="container">
+      <p class="kicker">Reserve Your Chair</p>
+      <h2 class="section__title">Book an Appointment</h2>
+      <p class="section__lead">Fill out the form and we'll confirm your time. Prefer to book instantly? <a href="#contact">Use our scheduler.</a></p>
+
+      <form class="booking" id="bookingForm" novalidate>
+        <div class="booking__row">
+          <label>Name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>Phone
+            <input type="tel" name="phone" required placeholder="(555) 123-4567" />
+          </label>
+        </div>
+        <div class="booking__row">
+          <label>Email
+            <input type="email" name="email" required placeholder="you@email.com" />
+          </label>
+          <label>Service
+            <select name="service" required>
+              <option value="">Choose a service</option>
+              <option>Haircut</option>
+              <option>Fade / Taper</option>
+              <option>Beard Trim</option>
+              <option>Lineup</option>
+              <option>Kids Cut</option>
+              <option>Grooming Package</option>
+            </select>
+          </label>
+        </div>
+        <div class="booking__row">
+          <label>Preferred Date
+            <input type="date" name="date" required />
+          </label>
+          <label>Preferred Time
+            <input type="time" name="time" required />
+          </label>
+        </div>
+        <label>Notes
+          <textarea name="notes" rows="3" placeholder="Anything we should know?"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Submit Booking Request</button>
+        <p class="booking__msg" id="bookingMsg" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT / HOURS / LOCATION
+       EDIT: phone, email, address, hours, booking link
+       ============================================================ -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <div>
+        <p class="kicker">Get in Touch</p>
+        <h2 class="section__title">Visit or Call Us</h2>
+        <ul class="contact__list">
+          <!-- EDIT: phone -->
+          <li><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></li>
+          <!-- EDIT: email -->
+          <li><strong>Email:</strong> <a href="mailto:hello@ironandoak.com">hello@ironandoak.com</a></li>
+          <!-- EDIT: address -->
+          <li><strong>Address:</strong> 123 Main Street, Your City, ST 00000</li>
+          <!-- EDIT: booking platform link (Calendly, Square, Booksy, etc.) -->
+          <li><strong>Book online:</strong> <a href="#booking">Schedule an appointment</a></li>
+        </ul>
+        <div class="contact__btns">
+          <a href="tel:+15551234567" class="btn btn--primary">Call Now</a>
+          <a href="mailto:hello@ironandoak.com" class="btn btn--ghost">Email Us</a>
+        </div>
+      </div>
+      <div class="hours">
+        <h3>Business Hours</h3>
+        <!-- EDIT: hours -->
+        <ul>
+          <li><span>Mon</span><span>9am – 7pm</span></li>
+          <li><span>Tue</span><span>9am – 7pm</span></li>
+          <li><span>Wed</span><span>9am – 7pm</span></li>
+          <li><span>Thu</span><span>9am – 8pm</span></li>
+          <li><span>Fri</span><span>9am – 8pm</span></li>
+          <li><span>Sat</span><span>8am – 6pm</span></li>
+          <li><span>Sun</span><span>Closed</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ SECTION  (click to expand)
+       EDIT: questions and answers
+       ============================================================ -->
+  <section class="section section--alt" id="faq">
+    <div class="container container--narrow">
+      <p class="kicker">Questions?</p>
+      <h2 class="section__title">Frequently Asked</h2>
+
+      <div class="faq">
+        <details>
+          <summary>Do I need an appointment, or can I walk in?</summary>
+          <p>Both! We accept walk-ins when chairs are open, but booking ahead guarantees your spot and time.</p>
+        </details>
+        <details>
+          <summary>How do I pay?</summary>
+          <p>We accept cash and all major cards. Tips can be added in person.</p>
+        </details>
+        <details>
+          <summary>What if I need to cancel?</summary>
+          <p>No problem — just give us a call at least a couple hours ahead so we can offer the slot to someone else.</p>
+        </details>
+        <details>
+          <summary>Do you cut kids' hair?</summary>
+          <p>Absolutely. Kids cuts are $20 and our barbers are great with little ones.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       EDIT: name, contact, social links
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="brand__name">IRON &amp; OAK</span>
+        <p>Sharp cuts, honest prices, and a chair that feels like home.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <!-- EDIT: social links -->
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Iron &amp; Oak Barbershop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
